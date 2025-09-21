@@ -12,21 +12,6 @@ Supported features:
 * Test client script (`test_ocr.py`) to send files for OCR
 * Outputs returned as JSON (and optionally saved locally)
 
-## Directory Structure
-
-kmrl-ocr-service/
-│
-├── venv/                     ← Python virtual environment
-├── ocr_service/              
-│   ├── app.py                ← Flask API for OCR
-│   └── test_ocr.py           ← Client script to send files
-├── samples/                  ← Test documents (PDFs, images)
-├── outputs/                  ← (Optional) extracted text JSON files
-├── requirements.txt          ← Project dependencies
-├── README.md
-└── .gitignore
-
-
 ## Requirements
 
 Install dependencies:
